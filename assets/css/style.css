@@ -8,19 +8,50 @@ body {
     background-color: #FAEEFF;
 }
 
-header {
-    background-image: url(../images/background-pattern-mobile.svg) no-repeat center top;
-    background-size: cover;
+.faq-header {
     height: 200px;
 }
 
-main {
-    background: white;
-    max-width: 360px;
-    margin: -100px auto 0 auto; 
+.faq-main {
+    background: #fff;
+    max-width: 600px;
+    margin: -10px auto 0 auto; 
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     position: relative;
     z-index: 10;
+}
+
+.faq-intro {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.faq-title {
+    font-size: 3rem;
+}
+
+.faq-item {
+    border-top: 1px solid rgb(207, 207, 207);
+    padding: 5px;
+}
+
+.faq-expand {
+    display: flex;
+}
+
+.button-plus {
+    margin-left: auto;
+    cursor: pointer; 
+}
+
+.faq-question {
+    font-size: 1.3rem;
+}
+
+.faq-answer {
+    font-size: 1rem;
+    margin: 20px 0;
 }
